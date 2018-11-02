@@ -7,14 +7,11 @@ echo "You have selected $seldir"
 ls | grep $seldir
 echo "What would you like to name your project?"
 read answer
-echo "What would you like to name your app?"
-read app
 sudo apt update
 sudo apt autoremove
 cd /home/compsci
 mkdir $seldir
 cd $seldir 
-echo $app > myapp.txt
 echo $answer > projectname.txt
 echo "#!/bin/bash
 django-admin startproject $answer .
@@ -30,5 +27,4 @@ sudo chmod 777 startapp.sh
 pipenv install django==2.1
 echo "Now run ther server typing: ./server.sh"
 echo "Type ./startapp.sh to setup the app"
-echo "REMEMBER THAT THE NAME OF YOUR PROJECT IS :$answer"
 pipenv shell

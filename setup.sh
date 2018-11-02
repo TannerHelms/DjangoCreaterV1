@@ -1,5 +1,6 @@
 #!/bin/bash
-app=$(cat myapp.txt)
+echo "What do you want to call your app?"
+read app
 project=$(cat projectname.txt)
 python manage.py startapp $app
 cd $app
