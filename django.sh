@@ -117,6 +117,7 @@ urlpatterns = [
 pipenv install django==2.1
 echo "Now run ther server typing: ./server.sh"
 echo "Type ./startapp.sh to setup the app"
+echo "REMEMBER THAT THE NAME OF YOUR PROJECT IS :$answer"
 pipenv shell
 
 
