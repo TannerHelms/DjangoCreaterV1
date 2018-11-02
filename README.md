@@ -1,7 +1,7 @@
 # DjangoCreaterV1
 This is a BASH script this will guide to creating your App!!!
 Before you download these files you will to creating a folder to put them in.
-You should name it like DjangoSetup or something along the lines liket that.
+You should name it like DjangoSetup or something along the lines like that.
 Download these files and unzip them into the folder.
 Once you have these files downloaded into your folder, open terminal and 
 type in "sudo chmod 777 django.sh", after you run that file, type in
