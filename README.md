@@ -1,6 +1,6 @@
 # DjangoCreaterV1
 This is a BASH script this will guide to creating your App!!!
-  1. Download these files and extract them onto your Desktop of another perfered location.
+  1. Download these files and unzip them onto your Desktop of another perfered location.
   2. Open a teminal in the folder and type in "./django.sh"
   3. The first prompt will say "What directory would you like to make?" Here you will enter the name of the folder that you would like to put this app in.
   4. Than it will give you a prompt that says "What would you like to name your project". Type in what you want to name your project here.
