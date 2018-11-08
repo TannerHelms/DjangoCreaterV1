@@ -1,6 +1,8 @@
 #!/bin/bash
 echo "What do you want to call your app?"
 read app
+echo "Type in a phrase that would like to use for testing"
+read testing
 project=$(cat projectname.txt)
 python manage.py startapp $app
 cd $app
@@ -13,7 +15,7 @@ echo "#START
 # pages/views.py
 from django.http import HttpResponse
 def homePageView(request):
-    return HttpResponse('Hello, World! This is Tanner')
+    return HttpResponse('$testing')
 #END" > views.py
 touch urls.py
 
