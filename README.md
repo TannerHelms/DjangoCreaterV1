@@ -8,7 +8,7 @@ This is a BASH script this will guide to creating your App!!!
   6. When the code stops running, type in "./server.sh"
   7. Open a browser and type in: localhost:8000
   8. Go back to the terminal and use Control-C to stop running the server
-  9. Now type in "./startapp.sh", The first prompt will say "What would you like to name your app?" You type in the name of your app
+  9. If you want to create your own app than go ahead, if you want a demo app called "Hello, World" than type in "./startapp.sh", The first prompt will say "What would you like to name your app?" You type in the name of your app, than it will ask you for a simple phrase for testing, type in something such as: Hello World!!
   10. It will run a bunch of code and than once its done, you should go back to your browser and type in "localhost:8000"
 
 
